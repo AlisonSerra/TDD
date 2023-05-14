@@ -10,22 +10,26 @@ namespace TDD
     {
         public static decimal Add(decimal x, decimal y, int precision)
         {
-            throw new NotImplementedException();
+            decimal sum = x + y;
+            return Math.Round(sum, precision);
         }
 
         public static decimal Multiply(decimal x, decimal y, int precision)
         {
-            throw new NotImplementedException();
+            decimal sum = x * y;
+            return Math.Round(sum, precision);
         }
 
         public static decimal Divide(decimal x, decimal y, int precision)
         {
-            throw new NotImplementedException();
+            decimal sum = x / y;
+            return Math.Round(sum, precision);
         }
 
         public static decimal Subtract(decimal x, decimal y, int precision)
         {
-            throw new NotImplementedException();
+            decimal sum = x - y;
+            return Math.Round(sum, precision);
         }
     }
 }

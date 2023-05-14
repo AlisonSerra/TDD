@@ -4,7 +4,7 @@ namespace TDD
 {
     public class Calculator
     {
-        public static int Add(int x, int y)
+        public static int Addition(int x, int y)
         {
             throw new NotImplementedException();
         }
@@ -19,9 +19,10 @@ namespace TDD
             throw new NotImplementedException();
         }
 
-        public static int Subtract(int x, int y)
+        public static int Subtraction(int x, int y)
         {
             throw new NotImplementedException();
         }
+
     }
 }

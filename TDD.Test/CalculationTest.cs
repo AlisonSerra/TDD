@@ -11,7 +11,7 @@ namespace TDD.Test
             int expectedSum = 5;
 
             // Act
-            int actualSum = Calculator.Add(x, y);
+            int actualSum = Calculator.Addition(x, y);
 
             // Assert
             Assert.Equal(expectedSum, actualSum);
@@ -56,10 +56,11 @@ namespace TDD.Test
             int expectedDifference = 5;
 
             // Act
-            int actualDifference = Calculator.Subtract(x, y);
+            int actualDifference = Calculator.Subtraction(x, y);
 
             // Assert
             Assert.Equal(expectedDifference, actualDifference);
         }
+
     }
 }
